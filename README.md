@@ -1,24 +1,24 @@
-# CaravanShare - Caravan Sharing Platform
+# CaravanShare - 카라반 공유 플랫폼
 
-This project is a Python implementation of a caravan (RV) sharing platform, designed with a clean architecture approach. It follows the principles of Domain-Driven Design (DDD) to create a scalable and maintainable system.
+이 프로젝트는 깔끔한 아키텍처 접근 방식으로 설계된 카라반(RV) 공유 플랫폼의 Python 구현입니다. 확장 가능하고 유지 관리 가능한 시스템을 만들기 위해 도메인 주도 설계(DDD) 원칙을 따릅니다.
 
-## Project Structure
+## 프로젝트 구조
 
-The project is organized into the following main directories:
+프로젝트는 다음과 같은 주요 디렉토리로 구성됩니다:
 
-- `src/`: Contains the core application source code.
-  - `models/`: Defines the plain Python objects for the domain entities (e.g., `User`, `Caravan`, `Reservation`).
-  - `repositories/`: Manages the storage and retrieval of domain objects. Currently uses an in-memory implementation.
-  - `services/`: Contains the business logic and orchestrates the interactions between models and repositories.
-  - `exceptions/`: Defines custom exception classes for specific error conditions.
-- `tests/`: Contains unit tests for the application.
+- `src/`: 핵심 애플리케이션 소스 코드를 포함합니다.
+  - `models/`: 도메인 엔터티(예: `User`, `Caravan`, `Reservation`)를 위한 순수 Python 객체를 정의합니다.
+  - `repositories/`: 도메인 객체의 저장 및 검색을 관리합니다. 현재 인메모리 구현을 사용합니다.
+  - `services/`: 비즈니스 로직을 포함하고 모델과 리포지토리 간의 상호 작용을 조정합니다.
+  - `exceptions/`: 특정 오류 조건에 대한 사용자 정의 예외 클래스를 정의합니다.
+- `tests/`: 애플리케이션을 위한 단위 테스트를 포함합니다.
 
-## Running Tests
+## 테스트 실행
 
-The project uses Python's built-in `unittest` framework. To run all tests, navigate to the project root directory and run the following command:
+이 프로젝트는 Python의 내장 `unittest` 프레임워크를 사용합니다. 모든 테스트를 실행하려면 프로젝트 루트 디렉토리로 이동하여 다음 명령을 실행하십시오:
 
 ```bash
 python3 -m unittest discover
 ```
 
-This will automatically discover and run all test cases within the `tests` directory.
+그러면 `tests` 디렉토리 내의 모든 테스트 케이스가 자동으로 발견되고 실행됩니다.
