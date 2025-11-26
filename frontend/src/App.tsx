@@ -28,8 +28,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>CaravanShare에 오신 것을 환영합니다</h1>
-        <p>카라반 렌탈과 모험을 위한 원스톱 솔루션입니다.</p>
+        <h1>Caravan을 이용하러 잘 오셨습니다!</h1>
+        <p>카라반 렌탈과 즐거운 추억을 위해 행복한 고민을 해보세요~</p>
       </header>
       <main>
         {reservationMessage && (
